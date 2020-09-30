@@ -26,7 +26,7 @@ Then, install all dependencies by running:
 npm install
 ```
 
-The website is built from two separate data sources: our own API for COVID data, and Contentful for content. To download the most recent COVID data and setup a `.env` file with a copy of read-only API keys to Contentful, run:
+The website is built from two separate data sources: our own API for COVID data, and Contentful for content. To download the most recent COVID data and set up a `.env` file with a copy of read-only API keys to Contentful, run:
 
 ```shell
 npm run setup
@@ -42,7 +42,7 @@ gatsby develop
 
 The site is now running at `http://localhost:8000`. Any changes you make to code is live-updated. There is a GraphQL preview tool available at `http://localhost:8000/___graphql` to see what data is exposed to the website.
 
-Note that any changes you make while running Gatsby will automatically checked with [ESLint](https://eslint.org/), so check your console as you save files.
+Note that any changes you make while running Gatsby will automatically be checked with [ESLint](https://eslint.org/), so check your console as you save files.
 
 ### Organization
 
